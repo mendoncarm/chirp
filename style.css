@@ -1,18 +1,38 @@
-
-
+/*cor azul do twitter 00acee*/
+body {
+    font-family:'Montserrat';
+}
 .container{
     display:flex;
     
 }
+.background {
+    background-color:rgb(255, 246, 241);
+}
 a {
     color:inherit;
 }
+header h1 {
+    font-weight:700;
+    font-style: italic;
+    color:#008fee;
 
-nav ul li{
+}
+header ul li{
     display:inline-block;
 
 }
 
 main ul li{
     display:inline-block;
+    
+}
+
+main {
+    display:flex;
+    flex-direction:column;
+}
+
+#sidebar img{
+    width:20%;
 }
