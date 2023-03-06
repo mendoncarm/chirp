@@ -1,0 +1,18 @@
+
+
+.container{
+    display:flex;
+    
+}
+a {
+    color:inherit;
+}
+
+nav ul li{
+    display:inline-block;
+
+}
+
+main ul li{
+    display:inline-block;
+}
